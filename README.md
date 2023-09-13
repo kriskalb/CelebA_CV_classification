@@ -25,7 +25,7 @@ The project was developed using the following technologies and tools:
 To run this project locally, follow these steps:
 
 1. Clone the repository:
-   git clone <repository_url>
+   git clone 'https://github.com/kriskalb/celeba-image-attractiveness-prediction'
 2. Navigate to the project directory:
    cd celeba-image-attractiveness-prediction
 3. Install the required Python packages:
