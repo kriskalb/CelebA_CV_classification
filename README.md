@@ -1,7 +1,7 @@
 # CelebA Image Attractiveness Prediction Project
 
 ## Overview
-The CelebA Image Attractiveness Prediction Project is a deep learning project that focuses on predicting image attractiveness using a dataset containing 50,000 images. We have developed a deep learning model based on Inception v3 architecture and integrated various image-related features from a CSV file into the modeling process. Additionally, we conducted a comprehensive comparison of evaluation metrics for the deep learning model.
+The CelebA Image Attractiveness Prediction Project is a deep learning project that focuses on predicting image attractiveness using a dataset containing 50,000 images (download images from https://www.kaggle.com/datasets/jessicali9530/celeba-dataset). We have developed a deep learning model based on Inception v3 architecture and integrated various image-related features from a CSV file into the modeling process. Additionally, we conducted a comprehensive comparison of evaluation metrics for the deep learning model.
 
 ## Project Goals
 The primary goals of this project are:
