@@ -10,14 +10,20 @@ The primary goals of this project are:
 3. To compare the performance of the deep learning model with other evaluation metrics.
 
 ## Main Features
-- Deep Learning Model: We implemented a deep learning model based on the Inception v3 architecture to predict image attractiveness.
+- Deep Learning Model: We implemented a deep learning model based on the Inception v3 architecture (transfer learning) to predict image attractiveness.
 - Data Integration: We integrated image-related features from a CSV file into the modeling process to enhance prediction accuracy.
 - Evaluation Metrics Comparison: We conducted a thorough comparison of evaluation metrics to assess the model's performance.
-
+- Classifivation Models: We implemented the following classification models to feature dataset:
+   - Logistic Regression
+   - Decision Trees Classifier
+   - Random Forest Classifier
+   - SVClassifier
+   - Adaboost
 ## Technologies Used
 The project was developed using the following technologies and tools:
 - Python: We used Python as the primary programming language for data preprocessing, model development, and analysis.
-- TensorFlow: TensorFlow was used to build and train the deep learning model.
+- TensorFlow/Keras: TensorFlow was used to build and train the deep learning model. We used a ready-made Inception V3 model and adapted it to our imageset.
+- Advanced Guide to Inception v3 - https://cloud.google.com/tpu/docs/inception-v3-advanced
 - scikit-learn: scikit-learn library was employed for various data preprocessing tasks and metric comparisons.
 - pandas: pandas library was used for data manipulation and feature integration.
 
